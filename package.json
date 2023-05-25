@@ -1,6 +1,6 @@
 {
   "name": "wisey-components-library",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Components Library React Typescript Sass",
   "targets": {
     "css": {
