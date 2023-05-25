@@ -1,3 +1,6 @@
+import React from "react"
+import './SkillsSection.scss'
+
 export interface ISkillsSectionProps {
     skills: string[]
 }
