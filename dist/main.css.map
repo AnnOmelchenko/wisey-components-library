@@ -1,0 +1,1 @@
+{"mappings":"ACAA","sources":["main.css","src/styles/main.scss"],"sourcesContent":[".spinner {\n  background-color: #f0f8ff;\n}\n\n/*# sourceMappingURL=main.css.map */\n",".spinner {\n    background-color: aliceblue;\n}"],"names":[],"version":3,"file":"main.css.map"}
