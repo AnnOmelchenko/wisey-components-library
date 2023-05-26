@@ -10,22 +10,22 @@ import * as packageJson from './package.json'
 // https://vitejs.dev/config/
 export default defineConfig((configEnv) => ({
   plugins: [
+    dts({
+      include: ['src/components/'],
+    }),
     react(),
     tsConfigPaths(),
     linterPlugin({
       include: ['./src}/**/*.{ts,tsx}'],
       linters: [new EsLinter({ configEnv })],
     }),
-    dts({
-      include: ['src/component/'],
-    }),
   ],
   build: {
     lib: {
       entry: resolve('src', 'components/index.ts'),
-      name: 'ReactViteLibrary',
+      name: 'WiseyComponentsLibrary',
       formats: ['es', 'umd'],
-      fileName: (format) => `react-vite-library.${format}.js`,
+      fileName: (format) => `wisey-components-library.${format}.js`,
     },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies)],
