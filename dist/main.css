@@ -1,2 +1,0 @@
-.spinnerWrapper{width:100%;justify-content:center;display:flex}.spinnerWrapper .spinner{width:80px;height:80px;border:1px solid #f3f3f3;border-top:4px solid #fc8846;border-radius:50%;margin:0 10px;animation:1s linear infinite rotating-spinner}@keyframes rotating-spinner{0%{transform:rotate(0)}to{transform:rotate(360deg)}}.skillsTitle{margin-bottom:4px;font-size:20px}.skillsItem{margin-left:30px;font-size:18px}
-/*# sourceMappingURL=main.css.map */
